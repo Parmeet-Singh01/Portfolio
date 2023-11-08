@@ -1,0 +1,328 @@
+*{
+    margin: 0px;
+    text-decoration: none;
+}
+body{
+    scroll-behavior: smooth;
+    background-color: #706233;
+}
+.image{
+    padding: 5px;
+    background-image: url(back3.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flexbox;
+}
+.navbar{
+
+    background: #B0926A;
+    border-radius: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    margin: 10px;
+    height: 50px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 35px;
+    font-weight: 500;
+    color: white;
+}
+li{
+    list-style: none;
+    display: inline-block;
+
+
+}
+li a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+
+}
+a:hover{
+    color: black;
+}
+.box{
+    width: 100%;
+    height: fit-content;
+    background-size: cover;
+}
+.b1{
+    display: inline-block;
+    border-radius: 10px;
+    padding-right: 15px;
+    padding-left: 150px;
+    padding-top: 140px;
+    margin: 10px;
+    height: 40vh;
+    width: fit-content;
+    text-align: center;
+}
+.box img{
+    display: inline-block;
+    border-radius: 20px;
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-right: 5px;
+    position: absolute;
+    width: 300px;
+    height: 400px;
+}
+.b1 h1{
+    color: rgb(255, 255, 255);
+}
+.b1 p{
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(12, 143, 219);
+}
+.button {
+    background-color: #096daf;
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+  }
+  .button:hover {
+    background-color: #B0926A;
+    font-weight: bold;
+    transform: scale(1.15);
+  }
+.heads{
+    background-color: #B0926A;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+.b2{
+    display: inline-flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 70px;
+    border-radius: 10px;
+    width: 1215px;
+    height: auto;
+    background-color:#E1C78F;
+}
+.b2 .box{
+    padding: 100px;
+    border-radius: 20px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: 1.5%;
+    margin-top: 0%;
+    width: 500px;
+    height: auto;
+    background-color:#FAE7C9;
+    
+}
+.b2 p{
+    font-size: 27px;
+}
+.b2 img{
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: 90px;
+    margin-right: 122px;
+    position: relative;
+    width: 400px;
+    height: 535px;
+}
+.b3{
+    display: inline-flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 70px;
+    border-radius: 10px;
+    width: 1215px;
+    height: auto;
+    background-color:#E1C78F;
+}
+.b3 .box{
+    padding: 100px;
+    border-radius: 20px;
+    text-align: justify;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    margin-top: 0%;
+    width: 100%;
+    height: auto;
+    background-color:#FAE7C9;
+}
+.b3 img{
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+    position: relative;
+    width: 400px;
+    height: 500px;
+}
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card1 {
+    width: 200px;
+    height: 200px;
+    padding: 12px;
+    background-image: url('html.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+.card1:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+    transform: scale(1.05);
+}
+.card2 {
+    width: 200px;
+    height: 200px;
+    padding: 12px;
+    background-image: url('csslogo1.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+.card2:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+    transform: scale(1.05);
+}
+.card3 {
+    width: 200px;
+    height: 200px;
+    padding: 12px;
+    background-image: url('js.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+.card3:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+    transform: scale(1.05);
+}
+.b4{
+    display: inline-flex;
+    padding-top: 100px;
+    padding-bottom: 5px;
+    padding-left: 25%;
+    margin-left: 70px;
+    border-radius: 10px;
+    width: 65%;
+    height: auto;
+    background-color:#E1C78F;
+}
+.form{
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: relatives;
+    transform: translate(0%,-5%);
+    border-radius: 30px;
+    padding: 25px;
+    margin-left: .5%;
+}
+.form h2{
+    width: 480px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #B0926A;
+    font-size: 25px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 2px;
+    padding: 8px;
+}
+.form p{
+    color: #fff;
+}
+.form input{
+    width: 420px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #00ffdd;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 50px;
+    margin-left: 40px ;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background:#B0926A;
+    border: none;
+    margin-top: 80px;
+    margin-left: 130px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: rgb(87, 82, w82);
+    color: #ff0000ec;
+}
+.btnn a{
+    text-decoration: none;
+    color: rgb(255, 251, 251);
+    font-weight: bold;
+}
+.foot{
+    background-color:#B0926A;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin: 0%;
+    margin-top: 50px;
+    margin-bottom: 0%;
+    border-radius: 2px;
+    height: 200px;
+    text-align: center;
+    font-size: 30px;
+}
+.foot h1{
+    margin-top: 60px;
+}
